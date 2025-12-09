@@ -1,0 +1,12 @@
+Excel Cleaning Steps (sample_students.xlsx):
+
+1. Remove duplicate rows (Data > Remove Duplicates).
+2. Fill missing Attendance with average attendance for the class.
+3. Convert score columns to numeric and round to 0 decimals.
+4. Create a Pivot Table:
+   - Rows: Class
+   - Values: Average of Math, Science, English
+   - Filter: Attendance >= 75
+5. Create a clustered column chart to compare subject averages by class.
+
+Note: sample_students.xlsx is a minimal sample with 10 students for demonstration.
